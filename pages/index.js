@@ -1,11 +1,10 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
-import Header from '../components/Header';
+import Header from '../components/Example_Header';
 import ExampleComponent from '../components/Example_Component_Basic';
 import { useMoralis } from 'react-moralis';
 
 const supportedChains = ['31337', '11155111'];
-const bgImage = '/bg-hero1.jpg';
+const bgImage = '/background-image.jpg';
 
 export default function Home() {
   const { isWeb3Enabled, chainId } = useMoralis();

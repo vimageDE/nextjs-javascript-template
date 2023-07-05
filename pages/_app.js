@@ -1,7 +1,7 @@
 import { MoralisProvider } from 'react-moralis';
 import { NotificationProvider } from 'web3uikit';
 import '../styles/globals.css';
-import { ExampleForContract } from '../components/Contracts';
+import { ExampleForContract } from '../components/Example_Component_Parent';
 
 function MyApp({ Component, pageProps }) {
   return (

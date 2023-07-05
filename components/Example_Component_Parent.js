@@ -58,7 +58,7 @@ export const ExampleForContract = ({ children }) => {
     contractAddress: contractAddress,
     functionName: 'contractFunction',
     params: {},
-    msgValue: entranceFee,
+    msgValue: 0,
   });
 
   // Export Variables
