@@ -14,7 +14,6 @@ export const ExampleForContract = ({ children }) => {
   const [signer, setSigner] = useState('');
   const contractAddress = chainId in contractAddresses ? contractAddresses[chainId][0] : null;
   const [contract, setContract] = useState('');
-  const [tokenContract, setTokenContract] = useState('');
   const [signerAddress, setSignerAddress] = useState('');
 
   // Example Variables that would be filled by a contract
